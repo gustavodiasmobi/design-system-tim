@@ -1,0 +1,29 @@
+{
+  "name": "design-system-tim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@storybook/addon-essentials": "^7.0.24",
+    "@storybook/addon-interactions": "^7.0.24",
+    "@storybook/addon-links": "^7.0.24",
+    "@storybook/blocks": "^7.0.24",
+    "@storybook/html": "^7.0.24",
+    "@storybook/html-webpack5": "^7.0.24",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "concurrently": "^8.2.0",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.63.6",
+    "storybook": "^7.0.24"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "compile:scss": "sass -w --no-source-map ./styles/scss/pages/:./styles/scss/pages/",
+    "watch:scss": "nodemon -e scss -x \"yarn compile:scss\"",
+    "watch": "concurrently \"yarn watch:scss\" \"yarn storybook\""
+  }
+}

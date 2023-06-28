@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <filter id="Elipse_70" x="0" y="0" width="70" height="70" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.905" y1="0.198" x2="0.3" y2="1.083" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff656d"/>
+      <stop offset="0.473" stop-color="#8541ff"/>
+      <stop offset="1" stop-color="#0073ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_6286" data-name="Grupo 6286" transform="translate(-3400.5 1542.5)">
+    <g id="Grupo_6285" data-name="Grupo 6285" transform="translate(3407.158 -1538)">
+      <g transform="matrix(1, 0, 0, 1, -6.66, -4.5)" filter="url(#Elipse_70)">
+        <g id="Elipse_70-2" data-name="Elipse 70" transform="translate(9.5 4.5)" fill="#fff" stroke="#707070" stroke-width="1">
+          <circle cx="24.5" cy="24.5" r="24.5" stroke="none"/>
+          <circle cx="24.5" cy="24.5" r="24" fill="none"/>
+        </g>
+      </g>
+      <g id="ico-messenger" transform="translate(0 0)">
+        <g id="Elipse_67" data-name="Elipse 67" transform="translate(6.56 7.915)" fill="#fff" stroke="#707070" stroke-width="1">
+          <ellipse cx="20.628" cy="18.51" rx="20.628" ry="18.51" stroke="none"/>
+          <ellipse cx="20.628" cy="18.51" rx="20.128" ry="18.01" fill="none"/>
+        </g>
+        <g id="Layer_2">
+          <path id="Caminho_15" data-name="Caminho 15" d="M31.109,4C16.1,4,4,15.4,4,29.443a24.805,24.805,0,0,0,8.617,18.665,4.082,4.082,0,0,1,1.452,3.242v5.992a.964.964,0,0,0,1.452.884l6.293-3.537a3.765,3.765,0,0,1,2.9-.393,26.875,26.875,0,0,0,6.293.688c15.007,0,27.109-11.4,27.109-25.443S46.115,4,31.109,4ZM44.76,26.791l-9.972,11.4a1.609,1.609,0,0,1-2.13.2L29.463,33.25c-1.452-1.179-1.41-1.787-3.152-1.2l-7.594,4.562a1.577,1.577,0,0,1-1.646-2.554L27.236,21.584a1.541,1.541,0,0,1,2.227-.2l4.123,4.421c1.452,1.375,1.9,1.572,3.736.982l5.792-2.554A1.577,1.577,0,0,1,44.76,26.791Z" transform="translate(-4 -4)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

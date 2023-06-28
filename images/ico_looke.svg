@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <filter id="Elipse_3" x="0" y="0" width="55" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico_looke" transform="translate(-336.5 -82.5)">
+    <g id="Grupo_18" data-name="Grupo 18" transform="translate(50 -39)">
+      <g transform="matrix(1, 0, 0, 1, 286.5, 121.5)" filter="url(#Elipse_3)">
+        <circle id="Elipse_3-2" data-name="Elipse 3" cx="20" cy="20" r="20" transform="translate(7.5 2.5)" fill="#0065cf"/>
+      </g>
+      <g id="layer1" transform="translate(318.486 186.635)">
+        <g id="g3729" transform="translate(-12.784 -53.264)">
+          <rect id="rect3715" width="16.596" height="20.368" transform="translate(0 0.889)" fill="none"/>
+          <g id="text3717" transform="translate(0.4 0)">
+            <path id="path3731" d="M8.39-35.2c-.289-.022-.6-.044-.933-.044-3.377,0-6.6,2.422-6.6,5.244,0,1.933,1.111,2.689,2.889,2.689a2.97,2.97,0,0,1-1.022-2.622,4.035,4.035,0,0,1,3.222-4v15.642a3.933,3.933,0,0,1,.511-.022c2.866,0,4.91,3.488,7.244,3.488a2.3,2.3,0,0,0,2.444-2.289,2.758,2.758,0,0,0-.067-.6,3.922,3.922,0,0,1-1.711.444c-2.511,0-4.088-1.555-6-1.978V-35.131Z" transform="translate(-0.857 35.242)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

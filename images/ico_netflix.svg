@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <filter id="Elipse_2" x="0" y="0" width="55" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico_netflix" transform="translate(-335.5 -32.5)">
+    <g transform="matrix(1, 0, 0, 1, 335.5, 32.5)" filter="url(#Elipse_2)">
+      <circle id="Elipse_2-2" data-name="Elipse 2" cx="20" cy="20" r="20" transform="translate(7.5 2.5)"/>
+    </g>
+    <g id="_x36_4-netflix" transform="translate(235.779 28.565)">
+      <g id="Grupo_4" data-name="Grupo 4" transform="translate(121.788 16.75)">
+        <g id="Grupo_3" data-name="Grupo 3" transform="translate(0 0)">
+          <g id="Grupo_2" data-name="Grupo 2">
+            <rect id="Retângulo_1" data-name="Retângulo 1" width="3.622" height="19.37" transform="translate(7.244)" fill="#e53333"/>
+            <rect id="Retângulo_2" data-name="Retângulo 2" width="3.622" height="19.37" fill="#e53333"/>
+            <path id="Caminho_7" data-name="Caminho 7" d="M132.654,36.12h-3.622l-7.244-19.37h3.622Zm0,0" transform="translate(-121.788 -16.75)" fill="#f84437"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

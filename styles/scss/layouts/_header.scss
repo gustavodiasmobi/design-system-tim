@@ -1,0 +1,63 @@
+.header {
+  background-color: $primary-color-main;
+
+  .content {
+    padding: 24px 0px;
+    @include flex-space-between;
+    min-height: 130px;
+    color: $neutral-color-light;
+
+    .left {
+      .logo {
+        display: block;
+        width: 72px;
+        height: auto;
+        margin-bottom: 24px;
+      }
+      .greettings {
+        p {
+          line-height: 20px;
+        }
+        p:first-child {
+          font-weight: bold;
+          strong {
+            color: $secondary-color-main;
+          }
+        }
+      }
+    }
+
+    .numero-login p {
+      @include flex-align-center;
+      gap: 8px;
+    }
+  }
+
+  hr.divider {
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+}
+
+@include md {
+  .header {
+    .content {
+      $padding-top: 24px;
+      position: relative;
+      padding: $padding-top 0px 16px;
+      min-height: 123.07px;
+
+      .numero-login {
+        position: absolute;
+        top: $padding-top - 4px;
+        right: 0;
+      }
+    }
+  }
+}

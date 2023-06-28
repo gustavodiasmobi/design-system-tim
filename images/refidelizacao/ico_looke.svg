@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ico_looke" transform="translate(-344 -85)">
+    <g id="Grupo_18" data-name="Grupo 18" transform="translate(344 85)">
+      <circle id="Elipse_3" data-name="Elipse 3" cx="12" cy="12" r="12" fill="#0065cf"/>
+      <g id="layer1" transform="translate(7.021 5.623)">
+        <g id="g3729" transform="translate(0 0)">
+          <rect id="rect3715" width="9.958" height="12.221" transform="translate(0 0.533)" fill="none"/>
+          <g id="text3717" transform="translate(0.24 0)">
+            <path id="path3731" d="M5.377-35.215c-.173-.013-.36-.027-.56-.027C2.79-35.242.857-33.789.857-32.1c0,1.16.667,1.613,1.733,1.613a1.782,1.782,0,0,1-.613-1.573,2.421,2.421,0,0,1,1.933-2.4v9.385a2.36,2.36,0,0,1,.307-.013c1.72,0,2.946,2.093,4.346,2.093a1.379,1.379,0,0,0,1.466-1.373,1.655,1.655,0,0,0-.04-.36,2.353,2.353,0,0,1-1.027.267c-1.506,0-2.453-.933-3.6-1.187v-9.532Z" transform="translate(-0.857 35.242)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

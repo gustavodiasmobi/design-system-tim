@@ -1,0 +1,82 @@
+// @import "../themes/theme";
+
+// @import "../utilities/mixins";
+
+// @import "../base/font-face";
+// @import "../base/global";
+// @import "../base/typography";
+
+// @import "../components/buttons";
+// @import "../components/primary-footer";
+
+// .success {
+//   @include flex-min-height;
+//   background-color: $primary-color-dark;
+//   color: $neutral-color-light;
+//   text-align: center;
+
+//   .wrapper {
+//     flex: 1;
+//     @include flex-center-center;
+//     flex-direction: column;
+//     padding: 60px 0px;
+//     @include background-image("/images/bg-login.png");
+//   }
+
+//   .header {
+//     .logo {
+//       font-size: 0px;
+//       margin-bottom: 64px;
+
+//       img {
+//         display: block;
+//         margin: 0px auto 0px;
+//         width: 194px;
+//         height: auto;
+//       }
+//     }
+//   }
+
+//   .main {
+//     h2 {
+//       text-align: center;
+//       margin-bottom: 24px;
+//     }
+//     .paragraphs {
+//       @include max-width(472px, true);
+
+//       p {
+//         margin-bottom: 16px;
+
+//         &:last-child {
+//           margin-bottom: 0;
+//         }
+//       }
+//     }
+//     a.gn-button {
+//       margin: 0px auto;
+//     }
+//   }
+// }
+// @include sm {
+//   .success {
+//     .wrapper {
+//       background-image: url("/images/bg-login-mobile.png");
+//     }
+
+//     .header {
+//       .logo {
+//         margin-bottom: 40px;
+//       }
+//     }
+//   }
+// }
+// @include sm {
+//   .success {
+//     .main {
+//       a.gn-button {
+//         font-size: 14px;
+//       }
+//     }
+//   }
+// }

@@ -1,0 +1,129 @@
+@mixin xl {
+  @media (min-width: 1920px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: 1366px) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin media-height($max-height) {
+  @media (max-height: $max-height) {
+    @content;
+  }
+}
+
+@mixin flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-min-height {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@mixin border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@mixin background-image($url, $size: cover) {
+  background-image: url($url);
+  background-size: $size;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin max-width($width, $marginAuto: false) {
+  width: 100%;
+  max-width: $width;
+  @if ($marginAuto == true) {
+    margin: 0px auto;
+  }
+}
+
+@mixin opacity($value) {
+  @if ($value == false) {
+    opacity: 0;
+    pointer-events: none;
+  } @else {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+@mixin insert {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@function pathFonts($fileName: "") {
+  @return "/public/assets/fonts/#{$fileName}";
+}
+@function pathImages($fileName: "") {
+  @return "/public/assets/images/#{$fileName}";
+}
+
+@mixin square($sides) {
+  width: $sides;
+  height: $sides;
+}
+
+@mixin text-border($color: "", $border-color: "", $border-width: 1px) {
+  color: $color;
+  -webkit-text-fill-color: $color;
+  -webkit-text-stroke: $border-width $border-color;
+}
+
+@mixin reset-button {
+  border: none;
+  background-color: transparent;
+}

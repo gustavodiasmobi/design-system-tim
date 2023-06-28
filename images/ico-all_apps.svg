@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="228.784" height="52" viewBox="0 0 228.784 52">
+  <defs>
+    <filter id="Caminho_987" x="61.25" y="0" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00acff"/>
+      <stop offset="1" stop-color="#0073ff"/>
+    </linearGradient>
+    <filter id="União_5" x="30.625" y="0" width="50" height="49.663" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5fd06b"/>
+      <stop offset="1" stop-color="#2bb641"/>
+    </linearGradient>
+    <filter id="WhatsApp_1_" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2" x="178.784" y="2" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-4"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.293" cy="-0.077" r="1.325" gradientTransform="matrix(1, 0, 0, -1, 0, -0.155)" gradientUnits="objectBoundingBox">
+      <stop offset="0.097" stop-color="#ffd87a"/>
+      <stop offset="0.143" stop-color="#fcce78"/>
+      <stop offset="0.226" stop-color="#f5b471"/>
+      <stop offset="0.338" stop-color="#eb8d65"/>
+      <stop offset="0.449" stop-color="#e36058"/>
+      <stop offset="0.679" stop-color="#cd3694"/>
+      <stop offset="1" stop-color="#6668b0"/>
+    </radialGradient>
+    <filter id="Elipse_2-2" x="148" y="0" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-5"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2-3" x="117" y="0" width="50" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-6"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1219" data-name="Grupo 1219" transform="translate(-51.5 -326.5)">
+    <g id="Grupo_1115" data-name="Grupo 1115" transform="translate(59 331)">
+      <g id="iconfinder_social-56_1591869" transform="translate(61.25 0)">
+        <g id="Grupo_1216" data-name="Grupo 1216">
+          <g transform="matrix(1, 0, 0, 1, -68.75, -4.5)" filter="url(#Caminho_987)">
+            <path id="Caminho_987-2" data-name="Caminho 987" d="M17.5,0A17.5,17.5,0,1,1,0,17.5,17.5,17.5,0,0,1,17.5,0Z" transform="translate(68.75 4.5)" fill="#139bd0"/>
+          </g>
+        </g>
+        <path id="Caminho_971" data-name="Caminho 971" d="M36.761,42.6c-.674.656-1.342,1.3-2,1.953a1.044,1.044,0,0,1-.824.336.419.419,0,0,1-.423-.327c-.507-1.574-1.022-3.144-1.526-4.719a.368.368,0,0,0-.276-.275q-1.792-.547-3.577-1.117a2.034,2.034,0,0,1-.526-.242.375.375,0,0,1-.061-.63,2.421,2.421,0,0,1,.7-.435c1.46-.579,2.928-1.139,4.394-1.7l11.16-4.307a.8.8,0,0,1,1.178.877,13.179,13.179,0,0,1-.276,1.454Q43.483,39.18,42.266,44.9c-.193.905-.829,1.142-1.574.592q-1.872-1.38-3.742-2.764C36.891,42.686,36.829,42.644,36.761,42.6Zm-2.8,1.158L34,43.743a.872.872,0,0,0,.022-.106c.08-.864.165-1.729.235-2.595a.635.635,0,0,1,.227-.46q1.726-1.543,3.439-3.1,1.9-1.716,3.8-3.435a1.068,1.068,0,0,0,.164-.289,1.072,1.072,0,0,0-.355-.033,1.548,1.548,0,0,0-.418.207q-4.2,2.644-8.4,5.288a.252.252,0,0,0-.128.358c.206.593.394,1.192.589,1.789Z" transform="translate(-18.688 -20.914)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+      <g id="Grupo_1069" data-name="Grupo 1069" transform="translate(30.625 0)">
+        <g transform="matrix(1, 0, 0, 1, -38.13, -4.5)" filter="url(#União_5)">
+          <path id="União_5-2" data-name="União 5" d="M6.264,33.37V29.7a1.825,1.825,0,0,0-.654-1.467L5.6,28.22l-.01-.009A15.514,15.514,0,0,1,5.145,4.748,18.125,18.125,0,0,1,17.53,0,17.984,17.984,0,0,1,29.888,4.779a15.53,15.53,0,0,1-.033,23.064A18.13,18.13,0,0,1,17.47,32.591a17.68,17.68,0,0,1-4.07-.44l-.019,0-.019-.006a1.409,1.409,0,0,0-.4-.057,1.861,1.861,0,0,0-.89.243L8.159,34.494a1.3,1.3,0,0,1-.635.169A1.279,1.279,0,0,1,6.264,33.37Z" transform="translate(38.13 4.5)" fill="url(#linear-gradient)"/>
+        </g>
+        <path id="Caminho_15" data-name="Caminho 15" d="M27.385,15.368l-6.2,6.986a1.012,1.012,0,0,1-1.325.12l-1.987-3.147c-.9-.723-.877-1.1-1.961-.734l-4.724,2.8a.97.97,0,0,1-1.024-1.566l6.324-7.649a.968.968,0,0,1,1.385-.12l2.565,2.71c.9.843,1.18.964,2.324.6l3.6-1.566A.97.97,0,0,1,27.385,15.368Z" transform="translate(-1.914 -0.728)" fill="#fff"/>
+      </g>
+      <g id="Grupo_1070" data-name="Grupo 1070" transform="translate(0 0)">
+        <g transform="matrix(1, 0, 0, 1, -7.5, -4.5)" filter="url(#WhatsApp_1_)">
+          <path id="WhatsApp_1_2" data-name="WhatsApp_1_" d="M17.495,0A17.488,17.488,0,0,0,3.332,27.757l-2.181,6.5,6.727-2.15A17.5,17.5,0,1,0,17.505,0H17.5Z" transform="translate(7.5 4.5)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+        </g>
+        <path id="WhatsApp_1_3" data-name="WhatsApp_1_" d="M9.923,6.5c-.3-.723-.53-.751-.986-.769-.155-.009-.329-.018-.521-.018a2.252,2.252,0,0,0-1.589.558,4.977,4.977,0,0,0-1.589,3.79,8.911,8.911,0,0,0,1.845,4.7c.228.3,3.17,4.952,7.736,6.848,3.571,1.483,4.631,1.346,5.444,1.172a4.381,4.381,0,0,0,3.051-2.2,3.874,3.874,0,0,0,.265-2.161c-.11-.192-.411-.3-.868-.531s-2.676-1.328-3.1-1.474a.866.866,0,0,0-1.114.339,19.105,19.105,0,0,1-1.215,1.611.98.98,0,0,1-1.1.174,11.446,11.446,0,0,1-3.644-2.252,13.844,13.844,0,0,1-2.521-3.14c-.265-.458-.027-.723.183-.97.228-.284.448-.485.676-.751a2.727,2.727,0,0,0,.5-.714.931.931,0,0,0-.064-.842C11.211,9.645,10.3,7.411,9.923,6.5Z" transform="translate(3.368 3.551)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Grupo_1145" data-name="Grupo 1145" transform="translate(176.5 331)">
+      <g id="Grupo_1142" data-name="Grupo 1142" transform="translate(61.284 0)">
+        <g id="iconfinder_circle-facebook__317752" transform="translate(0)">
+          <g transform="matrix(1, 0, 0, 1, -186.28, -4.5)" filter="url(#Elipse_2)">
+            <ellipse id="Elipse_2-4" data-name="Elipse 2" cx="17.5" cy="17.5" rx="17.5" ry="17.5" transform="translate(186.28 4.5)" fill="#00a2f2"/>
+          </g>
+        </g>
+        <g id="iconfinder_25_social_2609558" transform="matrix(0.798, -0.602, 0.602, 0.798, 3.157, 17.822)">
+          <path id="Caminho_940" data-name="Caminho 940" d="M5.735,11.945A3.874,3.874,0,0,1,3.962,7.831a3.777,3.777,0,0,0,1.462.782c.011.006.029,0,.06,0A3.856,3.856,0,0,1,4.2,5.832a3.762,3.762,0,0,1,.538-2.055A3.829,3.829,0,0,0,5.988,5.038a3.9,3.9,0,0,1-.207-2.822A3.821,3.821,0,0,1,7.535,0a11.026,11.026,0,0,0,4.873,7.468c.058-.143.1-.27.161-.4A3.757,3.757,0,0,1,14.32,5.166a3.706,3.706,0,0,1,3.138-.2,3.777,3.777,0,0,1,2.39,2.619A.2.2,0,0,0,20,7.739a7.846,7.846,0,0,0,2.376.378h.06l.023.013a3.966,3.966,0,0,1-2.479.994,7.31,7.31,0,0,0,2.148.574.035.035,0,0,1,0,.024c-.223.094-.448.192-.673.278a7.644,7.644,0,0,1-1.882.451.133.133,0,0,0-.122.071,10.63,10.63,0,0,1-.921,1.45A11.477,11.477,0,0,1,15.96,14.45a11.144,11.144,0,0,1-3.328,1.59,10.348,10.348,0,0,1-6.068-.091A12.338,12.338,0,0,1,4.575,15.1,10.918,10.918,0,0,1,.05,10.577c-.016-.024-.023-.052-.05-.1a7.8,7.8,0,0,0,3.6,1.472,7.334,7.334,0,0,0,2.13,0Z" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+      </g>
+      <g id="Grupo_1143" data-name="Grupo 1143" transform="translate(30.625 0)">
+        <g id="iconfinder_circle-facebook__317752-2" data-name="iconfinder_circle-facebook__317752" transform="translate(0 0)">
+          <g transform="matrix(1, 0, 0, 1, -155.63, -4.5)" filter="url(#Elipse_2-2)">
+            <circle id="Elipse_2-5" data-name="Elipse 2" cx="17.5" cy="17.5" r="17.5" transform="translate(155.5 4.5)" fill="url(#radial-gradient)"/>
+          </g>
+        </g>
+        <g id="iconfinder_25_social_2609558-2" data-name="iconfinder_25_social_2609558" transform="translate(28.088 27.845) rotate(180)">
+          <g id="Grupo_856" data-name="Grupo 856" transform="translate(0)">
+            <path id="Caminho_931" data-name="Caminho 931" d="M14.538,21H6.473A6.475,6.475,0,0,1,0,14.527V6.468A6.467,6.467,0,0,1,6.473,0h8.059A6.466,6.466,0,0,1,21,6.468v8.059A6.458,6.458,0,0,1,14.538,21ZM18.989,7.244a5.226,5.226,0,0,0-5.227-5.227H7.249A5.226,5.226,0,0,0,2.022,7.244v6.513a5.226,5.226,0,0,0,5.227,5.227h6.513a5.229,5.229,0,0,0,5.227-5.227Z" fill="#fff"/>
+            <path id="Caminho_932" data-name="Caminho 932" d="M5.527,11.078a5.539,5.539,0,1,1,5.527-5.539A5.53,5.53,0,0,1,5.527,11.078Zm0-8.867A3.334,3.334,0,1,0,8.853,5.544,3.328,3.328,0,0,0,5.527,2.211Z" transform="translate(5.262 4.922)" fill="#fff"/>
+            <path id="Caminho_933" data-name="Caminho 933" d="M2.806,1.4A1.4,1.4,0,1,0,1.4,2.811,1.4,1.4,0,0,0,2.806,1.4Z" transform="translate(14.535 14.677)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_1144" data-name="Grupo 1144" transform="translate(0 0)">
+        <g id="iconfinder_circle-facebook__317752-3" data-name="iconfinder_circle-facebook__317752" transform="translate(0 0)">
+          <g transform="matrix(1, 0, 0, 1, -125, -4.5)" filter="url(#Elipse_2-3)">
+            <circle id="Elipse_2-6" data-name="Elipse 2" cx="17.5" cy="17.5" r="17.5" transform="translate(124.5 4.5)" fill="#485995"/>
+          </g>
+        </g>
+        <path id="Caminho_935" data-name="Caminho 935" d="M5.34,3.839c.533-.332,1.086-.635,1.628-.95l.224-.128L5.6,0c-.309.136-.635.271-.95.438-.571.3-1.143.594-1.7.932A4.854,4.854,0,0,0,1,3.445,3.947,3.947,0,0,0,.912,6.566,9.53,9.53,0,0,0,1.5,7.811c.345.626.714,1.236,1.073,1.859L2.7,9.9,0,11.469l1.78,3.083L4.478,13l4.478,7.747,3.287-1.9L7.762,11.105l2.687-1.55C10,8.45,9.543,7.36,9.073,6.223l-.6.347c-.763.449-2.514,1.452-2.514,1.452s-.875-1.529-1.24-2.208A1.337,1.337,0,0,1,5.34,3.839Z" transform="translate(18.179 4.976) rotate(31)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <text id="_" data-name="+" transform="translate(166 356)" fill="#0b3d86" font-size="20" font-family="TIMSans-Bold, TIM Sans" font-weight="700"><tspan x="-5.9" y="0">+</tspan></text>
+  </g>
+</svg>

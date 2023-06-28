@@ -1,0 +1,46 @@
+@import "../themes/theme";
+
+@import "../utilities/mixins";
+
+@import "../base/font-face";
+@import "../base/global";
+@import "../base/typography";
+
+@import "../components/buttons";
+@import "../components/form-primary";
+@import "../components/box";
+@import "../components/banner";
+@import "../components/primary-footer";
+@import "../components/modals";
+@import "../components/warn";
+@import "../components/tooltip";
+
+@import "../layouts/header";
+
+@import "../vendor/slick-theme";
+@import "../vendor/slick";
+
+.offers {
+  @include flex-min-height;
+  background-color: $primary-color-dark;
+
+  .abas {
+    padding-bottom: 40px;
+    background: linear-gradient(
+      180deg,
+      $primary-color-main 0%,
+      $primary-color-dark 100%
+    );
+  }
+}
+
+@include sm {
+  .offers {
+    .abas {
+      .container {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+  }
+}

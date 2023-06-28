@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164.219" height="164.219" viewBox="0 0 164.219 164.219">
+  <defs>
+    <filter id="Elipse_2" x="0" y="0" width="164.219" height="164.219" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_983" data-name="Grupo 983" transform="translate(-1918.5 -2116.5)">
+    <g id="Grupo_981" data-name="Grupo 981" transform="translate(343.735 0.471)">
+      <g id="Grupo_977" data-name="Grupo 977" transform="translate(124.161 -91)">
+        <g id="Grupo_972" data-name="Grupo 972" transform="translate(1468.104 2219.529)">
+          <g id="iconfinder_circle-facebook__317752" transform="translate(0)">
+            <g transform="matrix(1, 0, 0, 1, -17.5, -12.5)" filter="url(#Elipse_2)">
+              <g id="Elipse_2-2" data-name="Elipse 2" transform="translate(17.5 12.5)" fill="#e4e4e4" stroke="#fff" stroke-width="10">
+                <circle cx="64.61" cy="64.61" r="64.61" stroke="none"/>
+                <circle cx="64.61" cy="64.61" r="69.61" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_982" data-name="Grupo 982" transform="translate(2491.995 2608)">
+      <rect id="Retângulo_984" data-name="Retângulo 984" width="61" height="61" transform="translate(-529.995 -445)" fill="#fff201"/>
+      <path id="Caminho_963" data-name="Caminho 963" d="M-501.9-375v7.18h3.038v19.331s-.276,3.038-4.142,3.038v7.18s12.151.552,12.151-9.113V-375Z" transform="translate(-19.541 -50.669)"/>
+      <rect id="Retângulo_985" data-name="Retângulo 985" width="8" height="7" transform="translate(-518.995 -436)"/>
+      <path id="Caminho_964" data-name="Caminho 964" d="M-419.518-370.991v-7.18h-10.77v2.458a9.039,9.039,0,0,0-6.9-3.286c-5.247,0-13.808,3.866-13.808,14.636a13.182,13.182,0,0,0,14.636,13.532,11.548,11.548,0,0,0,6.075-3.1v2.545h10.77v-7.18h-3.038v-12.427Zm-17.26,12.7a6.49,6.49,0,0,1-6.49-6.49,6.49,6.49,0,0,1,6.49-6.49,6.49,6.49,0,0,1,6.49,6.49A6.49,6.49,0,0,1-436.778-358.288Z" transform="translate(-57.18 -47.774)"/>
+      <path id="Caminho_965" data-name="Caminho 965" d="M-412-420.648l1.933,4.695,12.7-5.247-2.762-5.8Z" transform="translate(-85.41 -13.029)"/>
+      <rect id="Retângulo_986" data-name="Retângulo 986" width="13.255" height="40.871" transform="translate(-464.893 -445)"/>
+      <rect id="Retângulo_987" data-name="Retângulo 987" width="13.532" height="13.532" transform="translate(-465.031 -398.053)"/>
+    </g>
+  </g>
+</svg>

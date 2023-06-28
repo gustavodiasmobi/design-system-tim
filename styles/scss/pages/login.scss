@@ -1,0 +1,65 @@
+// @import "../themes/theme";
+
+// @import "../utilities/mixins";
+
+// @import "../base/font-face";
+// @import "../base/global";
+// @import "../base/typography";
+
+// @import "../components/buttons";
+// @import "../components/form-primary";
+// @import "../components/modals";
+
+// @import "../components/primary-header";
+// @import "../components/primary-footer";
+
+// .login {
+//   @include flex-min-height;
+//   background-color: $primary-color-dark;
+
+//   .wrapper {
+//     flex: 1;
+//     @include background-image("/images/bg-login.png");
+//     @include flex-center-center;
+//     flex-direction: column;
+//     padding: 80px 0px;
+//   }
+
+//   .main {
+//     .form {
+//       max-width: 382px;
+//       margin: 0px auto;
+//     }
+
+//     h2 {
+//       text-align: center;
+//       margin-bottom: 40px;
+//       color: $neutral-color-light;
+//       @include max-width(385px);
+
+//       strong {
+//         color: $secondary-color-main;
+//       }
+//     }
+//   }
+// }
+
+// @include sm {
+//   .login {
+//     .wrapper {
+//       background-image: url("/images/bg-login-mobile.png");
+//     }
+
+//     .header {
+//       .logo {
+//         margin-bottom: 40px;
+//       }
+//     }
+
+//     .main {
+//       h2 {
+//         @include max-width(300px);
+//       }
+//     }
+//   }
+// }

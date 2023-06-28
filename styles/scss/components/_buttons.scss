@@ -1,0 +1,30 @@
+.gn-button {
+  display: block;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  line-height: 56px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: $primary-fontfamily;
+  color: $primary-color-dark;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: $secondary-color-main;
+  transition: $primary-transition;
+}
+.gn-button:focus,
+.gn-button:hover {
+  opacity: 0.8;
+}
+.gn-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sc-button {
+  background-color: $primary-color-main;
+  color: #fff;
+}

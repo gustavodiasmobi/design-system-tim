@@ -1,0 +1,58 @@
+$inputHeight: 56px;
+$fontSize: 0.875rem;
+
+.row {
+  position: relative;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.input {
+  width: 100%;
+  height: $inputHeight;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid;
+  transition: $primary-transition;
+  outline: none;
+
+  /* main */
+  border-color: #000000;
+  &:hover,
+  &:focus {
+    opacity: 0.9;
+  }
+
+  &:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  &:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #ffffff inset !important;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.8) !important;
+  }
+}
+
+p.error {
+  margin: 16px 0px 0px;
+  font-size: 14px;
+  color: $tertiary-color-main;
+  line-height: 18px;
+  border: 1px solid $tertiary-color-main;
+  border-radius: 8px;
+  padding: 14px 16px 14px 64px;
+
+  background-image: url("/images/warn.svg");
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  background-position: 16px;
+}
+@include sm {
+  .error.erro {
+    font-size: 12px;
+  }
+}

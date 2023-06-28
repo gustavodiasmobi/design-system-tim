@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.992" height="55" viewBox="0 0 54.992 55">
+  <defs>
+    <filter id="Elipse_2" x="0" y="0" width="54.992" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico-Netflix" transform="translate(7.496 2.5)">
+    <g id="Grupo_976" data-name="Grupo 976" transform="translate(0)">
+      <g id="Grupo_972" data-name="Grupo 972" transform="translate(0)">
+        <g id="iconfinder_circle-facebook__317752" transform="translate(0.004)">
+          <g transform="matrix(1, 0, 0, 1, -7.5, -2.5)" filter="url(#Elipse_2)">
+            <ellipse id="Elipse_2-2" data-name="Elipse 2" cx="19.996" cy="20" rx="19.996" ry="20" transform="translate(7.5 2.5)" fill="#3d3d3d"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="netflix" transform="translate(13.54 8.506)">
+      <g id="Grupo_975" data-name="Grupo 975" transform="translate(0)">
+        <rect id="Retângulo_981" data-name="Retângulo 981" width="4.333" height="23.212" transform="translate(8.666)" fill="#d32f2f"/>
+        <rect id="Retângulo_982" data-name="Retângulo 982" width="4.333" height="23.212" fill="#d32f2f"/>
+      </g>
+      <path id="Caminho_956" data-name="Caminho 956" d="M125.1,23.294h-4.368L112,0h4.368Z" transform="translate(-112)" fill="#f44336"/>
+    </g>
+  </g>
+</svg>

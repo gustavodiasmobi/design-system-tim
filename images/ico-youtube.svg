@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55.375" height="55" viewBox="0 0 55.375 55">
+  <defs>
+    <filter id="Elipse_2" x="0" y="0" width="55.375" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico-YouTube" transform="translate(8.437 2.5)">
+    <g id="Grupo_972" data-name="Grupo 972" transform="translate(-0.375)">
+      <g id="iconfinder_circle-facebook__317752" transform="translate(-0.562)">
+        <g transform="matrix(1, 0, 0, 1, -7.5, -2.5)" filter="url(#Elipse_2)">
+          <ellipse id="Elipse_2-2" data-name="Elipse 2" cx="20.187" cy="20" rx="20.187" ry="20" transform="translate(7.5 2.5)" fill="#d42428"/>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_973" data-name="Grupo 973" transform="translate(8.178 11.864)">
+      <rect id="Retângulo_980" data-name="Retângulo 980" width="23.923" height="17.036" rx="4" transform="translate(0 0)" fill="#fff"/>
+      <path id="Polígono_1" data-name="Polígono 1" d="M4.269,1.093a1,1,0,0,1,1.61,0l3.1,4.2A1,1,0,0,1,8.17,6.887H1.979a1,1,0,0,1-.805-1.593Z" transform="translate(16.311 3.625) rotate(90)" fill="#d42428"/>
+    </g>
+  </g>
+</svg>

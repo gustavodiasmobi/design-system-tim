@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <filter id="Caminho_27" x="0" y="0" width="55" height="55" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="ico_youtube" transform="translate(-282.5 -140.5)">
+    <g id="Grupo_19" data-name="Grupo 19" transform="translate(15 14)">
+      <g transform="matrix(1, 0, 0, 1, 267.5, 126.5)" filter="url(#Caminho_27)">
+        <path id="Caminho_27-2" data-name="Caminho 27" d="M20,0A20,20,0,1,1,0,20,20,20,0,0,1,20,0Z" transform="translate(7.5 2.5)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="_x34__stroke" transform="translate(296.686 149.481)">
+      <g id="Youtube_1_" transform="translate(0 0.239)">
+        <rect id="Retângulo_3" data-name="Retângulo 3" width="26.561" height="26.561" transform="translate(0.066)" fill="none"/>
+        <path id="Youtube" d="M26.361,22.735A5.829,5.829,0,0,0,25.3,20.074a3.789,3.789,0,0,0-2.668-1.135c-3.726-.271-9.315-.271-9.315-.271h-.012s-5.589,0-9.315.271a3.791,3.791,0,0,0-2.669,1.135A5.825,5.825,0,0,0,.266,22.735,40.852,40.852,0,0,0,0,27.075V29.11a40.832,40.832,0,0,0,.266,4.34,5.824,5.824,0,0,0,1.058,2.661A4.5,4.5,0,0,0,4.26,37.258c2.13.206,9.053.27,9.053.27s5.6-.008,9.321-.28A3.8,3.8,0,0,0,25.3,36.112a5.83,5.83,0,0,0,1.058-2.661,40.832,40.832,0,0,0,.266-4.34V27.075A40.853,40.853,0,0,0,26.361,22.735Zm-15.8,8.84V24.041l7.194,3.78Z" transform="translate(0 -14.85)" fill="#ce1312" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
