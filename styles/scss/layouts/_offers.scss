@@ -1,0 +1,35 @@
+.offers {
+  background-color: $primary-color-dark;
+  background: linear-gradient(
+    180deg,
+    $primary-color-main 0%,
+    $primary-color-dark 100%
+  );
+
+  .container {
+    height: 540px;
+    // padding-bottom: 40px;
+
+    .pull-element-down {
+      margin-bottom: -157px;
+      height: 1px;
+    }
+
+    .cards {
+      .card {
+        margin: 0px auto;
+      }
+    }
+  }
+}
+@include sm {
+  .offers {
+    .container {
+      height: 620px;
+
+      .pull-element-down {
+        margin-bottom: -97px;
+      }
+    }
+  }
+}

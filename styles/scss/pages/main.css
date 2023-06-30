@@ -1174,6 +1174,29 @@ p.error {
     max-width: 202px;
   }
 }
+.offers {
+  background-color: #003264;
+  background: linear-gradient(180deg, #004691 0%, #003264 100%);
+}
+.offers .container {
+  height: 540px;
+}
+.offers .container .pull-element-down {
+  margin-bottom: -157px;
+  height: 1px;
+}
+.offers .container .cards .card {
+  margin: 0px auto;
+}
+
+@media (max-width: 480px) {
+  .offers .container {
+    height: 620px;
+  }
+  .offers .container .pull-element-down {
+    margin-bottom: -97px;
+  }
+}
 /* Slider */
 /* Icons */
 /* Arrows */
@@ -1406,22 +1429,4 @@ p.error {
 
 .slick-arrow.slick-hidden {
   display: none;
-}
-
-.offers {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background-color: #003264;
-}
-.offers .abas {
-  padding-bottom: 40px;
-  background: linear-gradient(180deg, #004691 0%, #003264 100%);
-}
-
-@media (max-width: 480px) {
-  .offers .abas .container {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
 }

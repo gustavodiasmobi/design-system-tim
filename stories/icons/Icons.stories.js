@@ -127,8 +127,7 @@ const iconList = [
 ];
 
 export default {
-  title: "Icons",
-  tags: ["autodocs"],
+  title: "Assets/Icons",
 };
 
 export function icons() {
