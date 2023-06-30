@@ -109,7 +109,7 @@
   @return "/fonts/#{$fileName}";
 }
 @function pathImages($fileName: "") {
-  @return "/images/#{$fileName}";
+  @return "/images/icons/#{$fileName}";
 }
 
 @mixin square($sides) {

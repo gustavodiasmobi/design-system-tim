@@ -57,7 +57,7 @@
     text-decoration: none;
     border: none;
     background-color: transparent;
-    @include background-image("/images/close-black.svg");
+    @include background-image("/images/icons/close-black.svg");
   }
 }
 
@@ -147,7 +147,7 @@
   .close {
     top: 32px;
     right: 32px;
-    background-image: url("/images/close-white.svg");
+    background-image: url("/images/icons/close-white.svg");
   }
 }
 @include sm {
@@ -233,7 +233,7 @@
       &::before {
         content: "";
         display: inline-block;
-        background: url("/images/check.svg");
+        background: url("/images/icons/check.svg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -340,7 +340,7 @@
         }
         &:checked + label::before {
           $bg-size: 20px 15px;
-          @include background-image("/images/check-blue.svg", $bg-size);
+          @include background-image("/images/icons/check-blue.svg", $bg-size);
         }
       }
     }
@@ -353,7 +353,7 @@
   }
 
   .close {
-    background-image: url("/images/close-white.svg");
+    background-image: url("/images/icons/close-white.svg");
   }
 
   .bottom .gn-button {

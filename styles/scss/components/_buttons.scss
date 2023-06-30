@@ -1,19 +1,17 @@
 .gn-button {
-  display: block;
-  width: 100%;
-  max-width: 380px;
-  text-align: center;
-  line-height: 56px;
-  font-size: 1rem;
-  font-weight: 700;
+  @include flex-center-center;
+  width: fit-content;
+  height: 48px;
+  padding: 0px 20px;
+  font-size: 18.5px;
   font-family: $primary-fontfamily;
-  color: $primary-color-dark;
+  color: $neutral-color-dark;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 12px;
   border: none;
   outline: none;
-  background-color: $secondary-color-main;
-  transition: $primary-transition;
+  background-color: #ccc;
+  transition: opacity 0.2s ease 0s;
 }
 .gn-button:focus,
 .gn-button:hover {
@@ -23,8 +21,13 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+.pm-button {
+  font-weight: 700;
+  color: $primary-color-dark;
+  background-color: $secondary-color-main;
+}
 
 .sc-button {
-  background-color: $primary-color-main;
   color: #fff;
+  background-color: $primary-color-main;
 }

@@ -112,12 +112,10 @@ ul {
 .container {
   max-width: 73.125rem;
   margin: 0 auto;
-  padding: 0px 24px;
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 0px;
     margin-left: 24px;
     margin-right: 24px;
   }
@@ -241,21 +239,21 @@ ul {
   }
 }
 .gn-button {
-  display: block;
-  width: 100%;
-  max-width: 380px;
-  text-align: center;
-  line-height: 56px;
-  font-size: 1rem;
-  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 48px;
+  padding: 0px 20px;
+  font-size: 18.5px;
   font-family: "TIM Sans";
-  color: #003264;
+  color: #000000;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 12px;
   border: none;
   outline: none;
-  background-color: #93c90f;
-  transition: all 0.2s ease 0s;
+  background-color: #ccc;
+  transition: opacity 0.2s ease 0s;
 }
 
 .gn-button:focus,
@@ -268,9 +266,15 @@ ul {
   cursor: not-allowed;
 }
 
+.pm-button {
+  font-weight: 700;
+  color: #003264;
+  background-color: #93c90f;
+}
+
 .sc-button {
-  background-color: #004691;
   color: #fff;
+  background-color: #004691;
 }
 
 .row {
@@ -313,7 +317,7 @@ p.error {
   border: 1px solid #f6e500;
   border-radius: 8px;
   padding: 14px 16px 14px 64px;
-  background-image: url("/images/warn.svg");
+  background-image: url("/images/icons/warn.svg");
   background-repeat: no-repeat;
   background-size: 32px 32px;
   background-position: 16px;
@@ -324,62 +328,54 @@ p.error {
     font-size: 12px;
   }
 }
-.slider-for {
-  margin-top: -150px;
-}
-
-.regularOffers,
-.especialOffers {
-  display: none !important;
-}
-.regularOffers.active, .regularOffers.active,
-.especialOffers.active,
-.especialOffers.active {
-  display: block !important;
-}
-
-.box .content {
+.card {
   width: 100%;
   max-width: 312px;
-  margin: 0px auto 0px;
+}
+.card .content {
   background-color: #ffffff;
-  border-radius: 16px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
   outline: none;
 }
-.box .content header {
+.card .content header {
   text-align: center;
   padding: 16px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.box .content header .offer-name {
+.card .content header .title {
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 400;
   color: #004691;
 }
-.box .content header .secondary-paragraph:first-of-type {
-  margin-bottom: 8px;
+.card .content header .subtitle {
+  font-size: 14px;
+  line-height: 16px;
 }
-.box .content header .bonus-bank span {
+.card .content header .subtitle span {
   font-weight: bold;
-  color: #004691;
+  color: #93c90f;
 }
-.box .content section {
+.card .content section {
   padding: 16px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.box .content section .price {
+.card .content section .price {
   font-family: "TIM Sans";
   width: fit-content;
   margin: 0px auto;
   margin-bottom: 8px;
 }
-.box .content section .price small {
-  text-align: center;
+.card .content section .old-price {
+  font-size: 14px;
+  line-height: 16px;
 }
-.box .content section .old-price s {
+.card .content section .old-price s {
   text-decoration: none;
   position: relative;
 }
-.box .content section .old-price s::before {
+.card .content section .old-price s::before {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -392,78 +388,84 @@ p.error {
   height: 1px;
   background-color: #ff0000;
 }
-.box .content section .new-price {
+.card .content section .new-price {
   display: flex;
   align-items: flex-start;
 }
-.box .content section .new-price u {
+.card .content section .new-price u {
   display: block;
   text-decoration: none;
 }
-.box .content section .new-price > em {
+.card .content section .new-price > em {
   font-style: normal;
 }
-.box .content section .new-price > em u:nth-child(1) {
+.card .content section .new-price > em u:nth-child(1) {
   font-size: 13.8416px;
   line-height: 12px;
   margin-top: 6px;
 }
-.box .content section .new-price > em u:nth-child(2) {
+.card .content section .new-price > em u:nth-child(2) {
   font-size: 30px;
   line-height: 34px;
 }
-.box .content section .new-price > strong {
+.card .content section .new-price > strong {
   font-size: 44px;
   margin: 4px 3px 0px;
   line-height: 54px;
 }
-.box .content section .new-price > span {
+.card .content section .new-price > span {
   font-size: 0.875rem;
   align-self: flex-end;
 }
-.box .content section .new-price > span u:nth-child(1) {
+.card .content section .new-price > span u:nth-child(1) {
+  font-size: 21px;
+  line-height: 15px;
+  font-weight: 700;
+}
+.card .content section .new-price > span u:nth-child(2) {
   font-size: 13.8416px;
   line-height: 17px;
   padding-bottom: 10px;
 }
-.box .content section .gn-button {
+.card .content section .gn-button {
+  width: 100%;
   margin-bottom: 24px;
 }
-.box .content section .bonus-list {
+.card .content section .bonus-list {
   width: fit-content;
   margin: 0px auto;
 }
-.box .content section .bonus-list li {
+.card .content section .bonus-list li {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
   text-align: center;
 }
-.box .content section .bonus-list li p {
+.card .content section .bonus-list li p {
   max-width: 230px;
   color: #494949;
 }
-.box .content section .bonus-list li img {
+.card .content section .bonus-list li img {
   margin-right: 8px;
 }
-.box .content section .bonus-list li:last-child {
+.card .content section .bonus-list li:last-child {
   margin-bottom: 0px;
 }
-.box .content section .apps {
+.card .content section .apps {
   text-align: center;
   margin-bottom: 16px;
 }
-.box .content section .apps:last-child {
+.card .content section .apps:last-child {
   margin-bottom: 0px;
 }
-.box .content section .apps .top {
+.card .content section .apps .top {
   margin-bottom: 8px;
 }
-.box .content section .apps h3 {
+.card .content section .apps h3 {
   font-weight: 400;
 }
-.box .content section .apps .images {
+.card .content section .apps .images {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,27 +475,26 @@ p.error {
   max-width: 220px;
   margin: 0px auto;
 }
-.box .content section .apps .images img {
+.card .content section .apps .images img {
   display: block;
   width: 32px;
   height: auto;
   transition: 0.3s;
   outline: none;
 }
-.box .content section .apps .images img:hover, .box .content section .apps .images img:focus {
+.card .content section .apps .images img:hover, .card .content section .apps .images img:focus {
   opacity: 0.75;
 }
-.box .content section .apps:last-child {
+.card .content section .apps:last-child {
   margin-bottom: 0;
 }
-.box .content footer {
+.card .content footer {
   padding: 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.box .content footer button {
+.card .content footer .button {
   border: none;
   text-decoration: none;
   background-color: transparent;
@@ -505,23 +506,19 @@ p.error {
   transition: all 0.2s ease 0s;
   outline: none;
 }
-.box .content footer button span {
+.card .content footer .button span {
   color: #93c90f;
 }
-.box .content footer button:focus, .box .content footer button:hover {
+.card .content footer .button:focus, .card .content footer .button:hover {
   opacity: 0.75;
 }
-
-@media (max-width: 768px) {
-  .slider-for {
-    margin-top: -180px;
-  }
-  .box {
-    width: 100%;
-    max-width: 312px;
-    padding: 0px 8px;
-  }
+.card .content footer .line {
+  display: block;
+  height: 38px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1019607843);
+  margin: 0px 16px;
 }
+
 .primary-footer {
   margin-top: auto;
   padding: 12px 0px;
@@ -592,7 +589,7 @@ p.error {
   text-decoration: none;
   border: none;
   background-color: transparent;
-  background-image: url("/images/close-black.svg");
+  background-image: url("/images/icons/close-black.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -678,7 +675,7 @@ p.error {
 .modal-details .close {
   top: 32px;
   right: 32px;
-  background-image: url("/images/close-white.svg");
+  background-image: url("/images/icons/close-white.svg");
 }
 
 @media (max-width: 480px) {
@@ -750,7 +747,7 @@ p.error {
 .modal-checkout .top li::before {
   content: "";
   display: inline-block;
-  background: url("/images/check.svg");
+  background: url("/images/icons/check.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -849,7 +846,7 @@ p.error {
   color: #ffffff;
 }
 .modal-checkout .mid .pay-check input[type=checkbox]:checked + label::before {
-  background-image: url("/images/check-blue.svg");
+  background-image: url("/images/icons/check-blue.svg");
   background-size: 20px 15px;
   background-position: center;
   background-repeat: no-repeat;
@@ -860,7 +857,7 @@ p.error {
   text-decoration: underline;
 }
 .modal-checkout .close {
-  background-image: url("/images/close-white.svg");
+  background-image: url("/images/icons/close-white.svg");
 }
 .modal-checkout .bottom .gn-button {
   max-width: 100%;

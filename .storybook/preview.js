@@ -1,6 +1,8 @@
 /** @type { import('@storybook/html').Preview } */
 
+// import { themes } from "@storybook/theming";
 import "../styles/scss/pages/main.css";
+import "../styles/scss/pages/storybook.css";
 
 const preview = {
   parameters: {
@@ -11,6 +13,9 @@ const preview = {
         date: /Date$/,
       },
     },
+    // docs: {
+    //   theme: themes.dark,
+    // },
   },
 };
 
