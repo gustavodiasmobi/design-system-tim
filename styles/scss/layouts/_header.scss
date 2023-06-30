@@ -11,8 +11,13 @@
       .logo {
         display: block;
         width: 72px;
-        height: auto;
         margin-bottom: 24px;
+        font-size: 0px;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
       }
       .greettings {
         p {

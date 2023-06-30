@@ -106,10 +106,10 @@
 }
 
 @function pathFonts($fileName: "") {
-  @return "/public/assets/fonts/#{$fileName}";
+  @return "/fonts/#{$fileName}";
 }
 @function pathImages($fileName: "") {
-  @return "/public/assets/images/#{$fileName}";
+  @return "/images/#{$fileName}";
 }
 
 @mixin square($sides) {
