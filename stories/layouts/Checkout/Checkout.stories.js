@@ -2,7 +2,7 @@ import CheckoutPrimary from "./Primary.html";
 
 export default {
   title: "Layouts/Checkout",
-  // tags: ["autodocs"],
+  tags: ["autodocs"],
 };
 
 export const primary = () => CheckoutPrimary;
