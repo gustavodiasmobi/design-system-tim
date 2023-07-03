@@ -257,6 +257,7 @@
   .helper-text {
     display: block;
     font-size: 16px;
+    line-height: 24px;
     padding: 13px 0px 14px 64px;
     border: 1px solid $neutral-color-main;
     border-radius: 8px;
@@ -327,24 +328,24 @@
     min-height: $inputHeight * 2;
   }
 
-  .digits {
-    @include flex-center-between;
-    gap: 16px;
-    @include max-width(224px);
+  // .digits {
+  //   @include flex-center-between;
+  //   gap: 16px;
+  //   @include max-width(224px);
 
-    .input {
-      @include square(64px);
-      font-size: 32px;
+  //   .input {
+  //     @include square(64px);
+  //     font-size: 32px;
 
-      /* animation */
-      &:focus,
-      &:hover {
-        $color: $primary-color-main;
+  //     /* animation */
+  //     &:focus,
+  //     &:hover {
+  //       $color: $primary-color-main;
 
-        box-shadow: 1px 1px 12px 1px $color;
-        -webkit-box-shadow: 1px 1px 12px 1px $color;
-        -moz-box-shadow: 1px 1px 12px 1px $color;
-      }
-    }
-  }
+  //       box-shadow: 1px 1px 12px 1px $color;
+  //       -webkit-box-shadow: 1px 1px 12px 1px $color;
+  //       -moz-box-shadow: 1px 1px 12px 1px $color;
+  //     }
+  //   }
+  // }
 }

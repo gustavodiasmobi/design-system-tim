@@ -1,0 +1,113 @@
+<div class="checkout primary">
+  <div class="checkout-resume">
+    <div class="checkout-container">
+      <header>
+        <h2>Resumo do seu pedido:</h2>
+        <a href="/" class="close" id="link-voltar-checkout"></a>
+      </header>
+
+      <div class="infos">
+        <div class="infos-row">
+          <p class="name">Titular</p>
+          <p class="number">96779-7548</p>
+          <button class="change" id="btn-alterar-titular">Alterar</button>
+          <p class="speed-price">
+            <span class="speed">8GB</span> |
+            <span class="price">R$ 15,99</span>
+          </p>
+        </div>
+        <div class="infos-row">
+          <p class="name">Linha 2</p>
+          <p class="number">96779-7548</p>
+          <button class="change" id="btn-alterar-titular">Alterar</button>
+          <p class="speed-price">
+            <span class="speed">12GB</span> |
+            <span class="price">R$ 17,99</span>
+          </p>
+        </div>
+        <div class="infos-row">
+          <p class="name">Linha 3</p>
+          <p class="number">96779-7548</p>
+          <button class="change" id="btn-alterar-titular">Alterar</button>
+          <p class="speed-price">
+            <span class="speed">19GB</span> |
+            <span class="price">R$ 21,99</span>
+          </p>
+        </div>
+      </div>
+
+      <hr class="divider secondary" />
+      <div class="total">
+        <p class="text">Total Mensal</p>
+        <p class="value">R$ 75,99</p>
+      </div>
+    </div>
+  </div>
+  <div class="checkout-confirm">
+    <div class="checkout-container">
+      <h3>Confirmação de Segurança</h3>
+      <form action="" class="form">
+        <div class="row full">
+          <p class="text">
+            Nos informe o primeiro sobrenome do responsável pelo contrato:
+          </p>
+        </div>
+        <div class="row full">
+          <div class="confirm-name">
+            <p class="full-name">Giselle Maria</p>
+            <input id="last-name" name="last-name" type="text" class="input" />
+          </div>
+          <p class="helper-text error">Sobrenome incorreto. Tente novamente.</p>
+        </div>
+        <div class="row full">
+          <p class="text">
+            Agora, para finalizar o seu pedido, por favor, digite os 4 primeiros
+            dígitos do CPF do titular desta linha:
+          </p>
+        </div>
+        <div class="row full">
+          <div class="cpf-container">
+            <input
+              class="input"
+              type="tel"
+              class="digit"
+              name="digit1"
+              id="digit1"
+            />
+            <input
+              class="input"
+              type="tel"
+              class="digit"
+              name="digit2"
+              id="digit2"
+            />
+            <input
+              class="input"
+              type="tel"
+              class="digit"
+              name="digit3"
+              id="digit3"
+            />
+            <span class="dot">.</span>
+            <input
+              class="input"
+              type="tel"
+              class="digit"
+              name="digit3"
+              id="digit3"
+            />
+            <div class="hidden-cpf">**.***-29</div>
+          </div>
+          <p class="helper-text error">CPF Inválido. Tente novamente.</p>
+        </div>
+        <button
+          class="gn-button pm-button"
+          id="btn-confirmar-pedido-checkout-checkout"
+          disabled
+        >
+          Confirmar pedido
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
