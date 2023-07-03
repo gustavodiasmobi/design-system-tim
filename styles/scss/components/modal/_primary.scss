@@ -1,0 +1,216 @@
+.modal {
+  &.primary {
+    .modal-content {
+      display: flex;
+      flex-direction: column;
+      $content-width: 604px;
+      @include max-width($content-width);
+      margin-right: -100%;
+      margin-left: auto;
+      height: 100vh;
+      transition: margin-right $primary-transition;
+      background-color: $neutral-color-light;
+      overflow-y: auto;
+      /* Firefox */
+      & {
+        scrollbar-width: thin;
+        scrollbar-color: #003264 #dfe9eb;
+      }
+
+      /* Chrome, Edge and Safari */
+      &::-webkit-scrollbar {
+        width: 10px;
+      }
+      &::-webkit-scrollbar-track {
+        background-color: #dfe9eb;
+      }
+
+      &::-webkit-scrollbar-track:hover {
+        background-color: #dfe9eb;
+      }
+
+      &::-webkit-scrollbar-track:active {
+        background-color: #dfe9eb;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #003264;
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background-color: #4789cf;
+      }
+
+      &::-webkit-scrollbar-thumb:active {
+        background-color: #4789cf;
+      }
+    }
+
+    &.active .modal-content {
+      margin-right: 0px;
+    }
+
+    .modal-resume {
+      padding: 24px 60px;
+      color: $neutral-color-light;
+      background-color: $primary-color-main;
+
+      header {
+        @include flex-center-between;
+        margin-bottom: 24px;
+
+        h2 {
+          color: $neutral-color-light;
+          line-height: 36px;
+        }
+      }
+
+      .close {
+        @include square(32px);
+        cursor: pointer;
+        border: none;
+        background-color: $transparent-color;
+        @include background-image(pathImages("close.svg"));
+
+        &:hover,
+        &:focus {
+          opacity: 0.6;
+          transition: $primary-transition;
+        }
+      }
+
+      .title {
+        font-size: 22px;
+        line-height: 24px;
+        color: $secondary-color-main;
+        margin-bottom: 24px;
+      }
+
+      .benefits {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          display: flex;
+          gap: 12px;
+          font-size: 18px;
+          line-height: 24px;
+          margin-bottom: 12px;
+
+          &:nth-child(odd) {
+            width: 45%;
+          }
+
+          &:nth-child(even) {
+            width: 55%;
+          }
+
+          &::before {
+            content: "";
+            @include max-width(14px);
+            height: 12px;
+            margin-top: 5px;
+            @include background-image(pathImages("check.svg"));
+          }
+        }
+      }
+
+      .divider.primary {
+        border: none;
+        border-top: 1.48px dashed #ffffff33;
+        margin-bottom: 12px;
+      }
+
+      .apps-container {
+        @include flex-align-center;
+        margin-bottom: 24px;
+
+        .apps {
+          &:nth-child(odd) {
+            width: 45%;
+          }
+          &:nth-child(even) {
+            width: 55%;
+          }
+          p {
+            display: flex;
+            gap: 12px;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 12px;
+
+            &::before {
+              content: "";
+              @include max-width(14px);
+              height: 12px;
+              margin-top: 5px;
+              @include background-image(pathImages("check.svg"));
+            }
+          }
+          .icons {
+            @include flex-align-center;
+            gap: 8px;
+            margin-left: 26px;
+
+            img {
+              @include square(36px);
+            }
+          }
+        }
+      }
+
+      .divider.secondary {
+        border: none;
+        border-top: 1.48px solid #ffffff33;
+        margin-bottom: 16px;
+      }
+      .total {
+        @include flex-center-between;
+
+        .text {
+          font-size: 24px;
+          line-height: 36px;
+        }
+        .value {
+          color: $secondary-color-main;
+          font-size: 24px;
+          line-height: 36px;
+          font-weight: 700;
+        }
+      }
+    }
+    .modal-confirm {
+      padding: 28px 60px;
+
+      h3 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 18.5px;
+        line-height: 36px;
+        margin-bottom: 24px;
+      }
+      .cpf-container {
+        @include flex-align-center;
+        gap: 16px;
+        margin-bottom: 24px;
+
+        .hidden-cpf {
+          font-size: 46px;
+          line-height: 36px;
+          color: $primary-color-main;
+          font-weight: 700;
+        }
+      }
+      .gn-button {
+        width: 100%;
+      }
+    }
+  }
+}
+@include sm {
+  .modal.primary {
+  }
+}

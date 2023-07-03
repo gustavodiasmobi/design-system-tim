@@ -1,7 +1,7 @@
 .gn-button {
   @include flex-center-center;
   width: fit-content;
-  height: 48px;
+  height: 56px;
   padding: 0px 20px;
   font-size: 18.5px;
   font-family: $primary-fontfamily;
@@ -18,8 +18,14 @@
   opacity: 0.8;
 }
 .gn-button:disabled {
-  opacity: 0.5;
+  color: #4d4d4d;
+  background-color: #dcd2cd;
   cursor: not-allowed;
+
+  &:focus,
+  &:hover {
+    opacity: 1;
+  }
 }
 .pm-button {
   font-weight: 700;

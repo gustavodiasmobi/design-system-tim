@@ -7,16 +7,17 @@
 @import "../base/typography";
 
 @import "../components/buttons";
-@import "../components/form-primary";
+@import "../components/form";
 @import "../components/card";
-@import "../components/primary-footer";
-@import "../components/modals";
-@import "../components/warn";
-@import "../components/tooltip";
+
+@import "../components/modal/modal";
+@import "../components/modal/primary";
+@import "../components/modal/secondary";
 
 @import "../layouts/header";
 @import "../layouts/banner";
 @import "../layouts/offers";
+@import "../layouts/footer";
 
 @import "../vendor/slick-theme";
 @import "../vendor/slick";

@@ -1,0 +1,97 @@
+<div class="modal primary active" id="modal-checkout">
+  <div class="modal-content">
+    <div class="modal-resume">
+      <header>
+        <h2>Resumo do seu pedido:</h2>
+        <button class="close" id="btn-fechar-modal-checkout"></button>
+      </header>
+      <h3 class="title">TIM Controle SMART 4.0</h3>
+      <ul class="benefits">
+        <li>39 GB</li>
+        <li>Ligações Ilimitadas</li>
+        <li>SMS Ilimitados</li>
+      </ul>
+      <hr class="divider primary" />
+      <div class="apps-container">
+        <div class="apps">
+          <p>Apps Ilimitados:</p>
+          <div class="icons">
+            <img src="/images/icons/ico-whatsapp.svg" alt="WhatsApp" />
+            <img src="/images/icons/ico-telegram.svg" alt="Telegram" />
+            <img src="/images/icons/ico-messenger.svg" alt="Messenger" />
+          </div>
+        </div>
+        <div class="apps">
+          <p>Assinaturas inclusas:</p>
+          <div class="icons">
+            <img
+              src="/images/icons/banca-de-Jornal.svg"
+              alt="Banca de Jornal"
+              title="Banca de Jornal"
+            />
+            <img
+              src="/images/icons/ico-skeelo.svg"
+              alt="Ebook by Skeelo"
+              title="Ebook by Skeelo"
+            />
+            <img
+              src="/images/icons/reforca.svg"
+              alt="Reforça Light"
+              title="Reforça Light"
+            />
+          </div>
+        </div>
+      </div>
+      <hr class="divider secondary" />
+      <div class="total">
+        <p class="text">Total Mensal</p>
+        <p class="value">R$ 75,99</p>
+      </div>
+    </div>
+    <div class="modal-confirm">
+      <h3>Confirmação de Segurança</h3>
+      <p>
+        Agora, para finalizar o seu pedido, por favor, digite os
+        <strong>3 primeiros dígitos do CPF</strong> do titular desta linha:
+      </p>
+      <form action="" class="form">
+        <div class="row full">
+          <div class="cpf-container">
+            <div class="digits">
+              <input
+                class="input"
+                type="tel"
+                class="digit"
+                name="digit1"
+                id="digit1"
+              />
+              <input
+                class="input"
+                type="tel"
+                class="digit"
+                name="digit2"
+                id="digit2"
+              />
+              <input
+                class="input"
+                type="tel"
+                class="digit"
+                name="digit3"
+                id="digit3"
+              />
+            </div>
+            <div class="hidden-cpf">.***.***-29</div>
+          </div>
+          <div class="helper-text error">CPF Inválido. Tente novamente.</div>
+        </div>
+        <button
+          class="gn-button pm-button"
+          id="btn-confirmar-pedido-modal-checkout"
+          disabled
+        >
+          Confirmar pedido
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+.modal {
+  position: fixed;
+  @include insert;
+  @include opacity(false);
+  transition: $primary-transition;
+  background-color: $opacity-color-100;
+
+  &.active {
+    @include opacity(true);
+  }
+}

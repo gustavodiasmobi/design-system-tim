@@ -36,7 +36,7 @@ import hbo_max from "../../images/icons/hbo-max.svg";
 import minibooks from "../../images/icons/minibooks.svg";
 import ico_Instagram from "../../images/icons/ico-Instagram.svg";
 import netflix from "../../images/icons/netflix.svg";
-import ico_Messenger from "../../images/icons/ico-Messenger.svg";
+import ico_Messenger from "../../images/icons/ico-messenger.svg";
 import prime_video from "../../images/icons/prime-video.svg";
 import ico_babbel from "../../images/icons/ico-babbel.svg";
 import protege_saude_padrao from "../../images/icons/protege-saude-padrao.svg";
