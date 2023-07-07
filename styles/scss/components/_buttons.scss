@@ -1,6 +1,5 @@
 .gn-button {
   @include flex-center-center;
-  width: fit-content;
   height: 56px;
   padding: 0px 20px;
   font-size: 18.5px;
@@ -12,6 +11,10 @@
   outline: none;
   background-color: #ccc;
   transition: opacity 0.2s ease 0s;
+
+  &.full {
+    width: 100%;
+  }
 }
 .gn-button:focus,
 .gn-button:hover {

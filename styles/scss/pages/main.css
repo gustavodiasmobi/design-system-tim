@@ -242,7 +242,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: fit-content;
   height: 56px;
   padding: 0px 20px;
   font-size: 18.5px;
@@ -254,6 +253,9 @@ ul {
   outline: none;
   background-color: #ccc;
   transition: opacity 0.2s ease 0s;
+}
+.gn-button.full {
+  width: 100%;
 }
 
 .gn-button:focus,
@@ -504,6 +506,12 @@ ul {
   min-height: 112px;
 }
 
+@media (max-width: 480px) {
+  .form .helper-text {
+    font-size: 14px;
+    border-radius: 8px;
+  }
+}
 .card {
   width: 100%;
   max-width: 312px;
@@ -766,6 +774,7 @@ ul {
 }
 .modal.primary .modal-resume header h2 {
   color: #ffffff;
+  font-size: 24px;
   line-height: 36px;
 }
 .modal.primary .modal-resume .close {
@@ -900,16 +909,155 @@ ul {
   gap: 16px;
   margin-bottom: 24px;
 }
+.modal.primary .modal-confirm .cpf-container .digits {
+  display: flex;
+  align-items: center;
+}
+.modal.primary .modal-confirm .cpf-container .digits .input {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 0px;
+  margin-right: 16px;
+  transition: all 0.2s ease 0s;
+  /* animation */
+}
+.modal.primary .modal-confirm .cpf-container .digits .input:last-child {
+  margin-right: 0px;
+}
+.modal.primary .modal-confirm .cpf-container .digits .input:focus, .modal.primary .modal-confirm .cpf-container .digits .input:hover {
+  box-shadow: 1px 1px 12px 1px #004691;
+  -webkit-box-shadow: 1px 1px 12px 1px #004691;
+  -moz-box-shadow: 1px 1px 12px 1px #004691;
+}
 .modal.primary .modal-confirm .cpf-container .hidden-cpf {
   font-size: 46px;
   line-height: 36px;
   color: #004691;
   font-weight: 700;
 }
-.modal.primary .modal-confirm .gn-button {
-  width: 100%;
-}
 
+@media (max-width: 480px) {
+  .modal.primary .modal-resume {
+    padding: 16px 40px;
+  }
+  .modal.primary .modal-resume header {
+    margin-bottom: 16px;
+  }
+  .modal.primary .modal-resume header h2 {
+    font-size: 18.5px;
+    line-height: 24px;
+  }
+  .modal.primary .modal-resume .close {
+    width: 24px;
+    height: 24px;
+  }
+  .modal.primary .modal-resume .title {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+  .modal.primary .modal-resume .benefits li {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+  .modal.primary .modal-resume .benefits li::before {
+    content: "";
+    width: 100%;
+    max-width: 10px;
+    height: 8px;
+    margin-top: 4px;
+  }
+  .modal.primary .modal-resume .divider.primary {
+    margin-bottom: 8px;
+  }
+  .modal.primary .modal-resume .apps-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .modal.primary .modal-resume .apps-container .apps p {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+  .modal.primary .modal-resume .apps-container .apps p::before {
+    content: "";
+    width: 100%;
+    max-width: 10px;
+    height: 8px;
+    margin-top: 4px;
+  }
+  .modal.primary .modal-resume .apps-container .apps .icons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 18px;
+  }
+  .modal.primary .modal-resume .apps-container .apps .icons img {
+    width: 24px;
+    height: 24px;
+  }
+  .modal.primary .modal-resume .divider.secondary {
+    margin-bottom: 10px;
+  }
+  .modal.primary .modal-resume .total .text {
+    font-size: 18.5px;
+    line-height: 24px;
+  }
+  .modal.primary .modal-resume .total .value {
+    font-size: 18.5px;
+    line-height: 24px;
+  }
+  .modal.primary .modal-confirm {
+    padding: 16px 40px;
+  }
+  .modal.primary .modal-confirm h3 {
+    font-size: 18.5px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  .modal.primary .modal-confirm p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .modal.primary .modal-confirm .cpf-container {
+    gap: 8px;
+  }
+  .modal.primary .modal-confirm .cpf-container .digits .input {
+    width: 40px;
+    height: 40px;
+    font-size: 18.5px;
+    border-radius: 8px;
+    margin-right: 8px;
+  }
+  .modal.primary .modal-confirm .cpf-container .hidden-cpf {
+    font-size: 39px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 375px) {
+  .modal.primary .modal-confirm .cpf-container .hidden-cpf {
+    font-size: 27px;
+  }
+}
+@media (max-width: 320px) {
+  .modal.primary .modal-confirm .cpf-container .digits .input {
+    width: 36px;
+    height: 36px;
+  }
+  .modal.primary .modal-confirm .cpf-container .hidden-cpf {
+    font-size: 22px;
+  }
+}
 .modal.secondary .modal-content {
   display: flex;
   flex-direction: column;
@@ -1231,7 +1379,6 @@ ul {
   width: 100%;
   max-width: 466px;
   margin: 0px auto;
-  transition: margin-right all 0.2s ease 0s;
 }
 .checkout.primary .checkout-resume {
   color: #ffffff;
@@ -1316,9 +1463,6 @@ ul {
   line-height: 28px;
   font-weight: 700;
 }
-.checkout.primary .checkout-confirm {
-  padding: 28px 45px;
-}
 .checkout.primary .checkout-confirm .checkout-container {
   padding: 25px 45px;
 }
@@ -1382,6 +1526,21 @@ ul {
   width: 100%;
 }
 
+@media (max-width: 480px) {
+  .checkout.primary .checkout-container {
+    max-width: 100%;
+  }
+  .checkout.primary .checkout-resume .checkout-container {
+    padding: 16px 40px;
+  }
+  .checkout.primary .checkout-resume header {
+    margin-bottom: 24px;
+  }
+  .checkout.primary .checkout-resume header h2 {
+    font-size: 18.5px;
+    line-height: 24px;
+  }
+}
 /* Slider */
 /* Icons */
 /* Arrows */

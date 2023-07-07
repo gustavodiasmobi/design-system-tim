@@ -61,6 +61,7 @@
 
         h2 {
           color: $neutral-color-light;
+          font-size: 24px;
           line-height: 36px;
         }
       }
@@ -197,6 +198,33 @@
         gap: 16px;
         margin-bottom: 24px;
 
+        .digits {
+          @include flex-align-center;
+          .input {
+            @include square(64px);
+            font-size: 32px;
+            border-radius: 12px;
+            text-align: center;
+            padding: 0px;
+            margin-right: 16px;
+            transition: $primary-transition;
+
+            &:last-child {
+              margin-right: 0px;
+            }
+
+            /* animation */
+            &:focus,
+            &:hover {
+              $color: $primary-color-main;
+
+              box-shadow: 1px 1px 12px 1px $color;
+              -webkit-box-shadow: 1px 1px 12px 1px $color;
+              -moz-box-shadow: 1px 1px 12px 1px $color;
+            }
+          }
+        }
+
         .hidden-cpf {
           font-size: 46px;
           line-height: 36px;
@@ -204,13 +232,157 @@
           font-weight: 700;
         }
       }
-      .gn-button {
-        width: 100%;
-      }
     }
   }
 }
 @include sm {
   .modal.primary {
+    .modal-resume {
+      padding: 16px 40px;
+
+      header {
+        margin-bottom: 16px;
+
+        h2 {
+          font-size: 18.5px;
+          line-height: 24px;
+        }
+      }
+
+      .close {
+        @include square(24px);
+      }
+
+      .title {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 16px;
+      }
+
+      .benefits {
+        li {
+          display: flex;
+          gap: 8px;
+          font-size: 12px;
+          line-height: 16px;
+          margin-bottom: 8px;
+
+          &::before {
+            content: "";
+            @include max-width(10px);
+            height: 8px;
+            margin-top: 4px;
+          }
+        }
+      }
+
+      .divider.primary {
+        margin-bottom: 8px;
+      }
+
+      .apps-container {
+        @include flex-align-center;
+        margin-bottom: 16px;
+
+        .apps {
+          p {
+            display: flex;
+            gap: 8px;
+            font-size: 12px;
+            line-height: 16px;
+            margin-bottom: 8px;
+
+            &::before {
+              content: "";
+              @include max-width(10px);
+              height: 8px;
+              margin-top: 4px;
+            }
+          }
+          .icons {
+            @include flex-align-center;
+            gap: 6px;
+            margin-left: 18px;
+
+            img {
+              @include square(24px);
+            }
+          }
+        }
+      }
+
+      .divider.secondary {
+        margin-bottom: 10px;
+      }
+      .total {
+        .text {
+          font-size: 18.5px;
+          line-height: 24px;
+        }
+        .value {
+          font-size: 18.5px;
+          line-height: 24px;
+        }
+      }
+    }
+    .modal-confirm {
+      padding: 16px 40px;
+
+      h3 {
+        font-size: 18.5px;
+        line-height: 24px;
+        margin-bottom: 24px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+      }
+      .cpf-container {
+        gap: 8px;
+
+        .digits {
+          .input {
+            @include square(40px);
+            font-size: 18.5px;
+            border-radius: 8px;
+            margin-right: 8px;
+          }
+        }
+
+        .hidden-cpf {
+          font-size: 39px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .modal.primary {
+    .modal-confirm {
+      .cpf-container {
+        .hidden-cpf {
+          font-size: 27px;
+        }
+      }
+    }
+  }
+}
+
+@include xs {
+  .modal.primary {
+    .modal-confirm {
+      .cpf-container {
+        .digits {
+          .input {
+            @include square(36px);
+          }
+        }
+        .hidden-cpf {
+          font-size: 22px;
+        }
+      }
+    }
   }
 }

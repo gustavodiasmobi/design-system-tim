@@ -327,25 +327,12 @@
     resize: vertical;
     min-height: $inputHeight * 2;
   }
-
-  // .digits {
-  //   @include flex-center-between;
-  //   gap: 16px;
-  //   @include max-width(224px);
-
-  //   .input {
-  //     @include square(64px);
-  //     font-size: 32px;
-
-  //     /* animation */
-  //     &:focus,
-  //     &:hover {
-  //       $color: $primary-color-main;
-
-  //       box-shadow: 1px 1px 12px 1px $color;
-  //       -webkit-box-shadow: 1px 1px 12px 1px $color;
-  //       -moz-box-shadow: 1px 1px 12px 1px $color;
-  //     }
-  //   }
-  // }
+}
+@include sm {
+  .form {
+    .helper-text {
+      font-size: 14px;
+      border-radius: 8px;
+    }
+  }
 }
