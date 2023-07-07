@@ -5,7 +5,6 @@
     .checkout-container {
       $content-width: 466px;
       @include max-width($content-width, true);
-      transition: margin-right $primary-transition;
     }
 
     .checkout-resume {
@@ -94,8 +93,6 @@
       }
     }
     .checkout-confirm {
-      padding: 28px 45px;
-
       .checkout-container {
         padding: 25px 45px;
       }
@@ -161,6 +158,27 @@
       }
       .gn-button {
         width: 100%;
+      }
+    }
+  }
+}
+@include sm {
+  .checkout.primary {
+    .checkout-container {
+      max-width: 100%;
+    }
+    .checkout-resume {
+      .checkout-container {
+        padding: 16px 40px;
+      }
+
+      header {
+        margin-bottom: 24px;
+
+        h2 {
+          font-size: 18.5px;
+          line-height: 24px;
+        }
       }
     }
   }

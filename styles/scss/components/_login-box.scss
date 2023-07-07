@@ -1,0 +1,38 @@
+.login-box {
+  background-color: $primary-color-main;
+  @include max-width(384px);
+
+  .logo {
+    display: block;
+    width: 244px;
+    height: auto;
+    margin: 0px auto 32px;
+  }
+
+  .title {
+    font-size: 38px;
+    line-height: 48px;
+    color: $neutral-color-light;
+    text-align: center;
+    margin-bottom: 32px;
+
+    strong {
+      display: block;
+      color: $secondary-color-main;
+    }
+  }
+}
+@include sm {
+  .login-box {
+    max-width: 328px;
+
+    .logo {
+      width: 160px;
+    }
+
+    .title {
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+}

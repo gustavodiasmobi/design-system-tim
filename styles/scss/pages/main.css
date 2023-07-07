@@ -278,6 +278,11 @@ ul {
   background-color: #93c90f;
 }
 
+@media (max-width: 480px) {
+  .pm-button {
+    height: 48px;
+  }
+}
 .sc-button {
   color: #fff;
   background-color: #004691;
@@ -286,7 +291,7 @@ ul {
 .form .row {
   position: relative;
   width: 100%;
-  max-width: 312px;
+  max-width: 384px;
   margin-bottom: 12px;
 }
 .form .row:last-of-type {
@@ -303,7 +308,7 @@ ul {
 .form .select {
   display: block;
   width: 100%;
-  max-width: 312px;
+  max-width: 384px;
   height: 56px;
   font-size: 1rem;
   font-weight: 400;
@@ -313,8 +318,8 @@ ul {
   padding: 16px;
   outline: none;
   border: 1px solid;
-  transition: border all 0.2s ease 0s;
-  background-color: transparent;
+  transition: border 0.2s ease 0s;
+  background-color: #ffffff;
   border-color: #808080;
 }
 .form .input:focus ~ .label, .form .input:hover ~ .label,
@@ -348,11 +353,11 @@ ul {
   top: 0px;
   left: 0px;
   width: 100%;
-  max-width: 312px;
+  max-width: 384px;
   display: flex;
   font-size: 16px;
   line-height: 16px;
-  transition: font-size all 0.2s ease 0s;
+  transition: font-size 0.2s ease 0s;
   padding: 0;
   background-color: transparent;
   pointer-events: none;
@@ -378,7 +383,7 @@ ul {
   position: absolute;
   top: calc(56px / 2 - (16px / 2));
   left: 16px;
-  transition: top all 0.2s ease 0s;
+  transition: top 0.2s ease 0s;
 }
 .form .input.outline:disabled:focus ~ .label, .form .input.outline:disabled:hover ~ .label {
   font-size: 16px;
@@ -388,7 +393,7 @@ ul {
   position: absolute;
   top: calc(56px / 2 - (16px / 2));
   left: 16px;
-  transition: top all 0.2s ease 0s;
+  transition: top 0.2s ease 0s;
 }
 .form .input.outline.active ~ .label, .form .input.outline:disabled.active ~ .label, .form .input.outline:focus ~ .label, .form .input.outline:hover ~ .label {
   font-size: 14px;
@@ -426,9 +431,9 @@ ul {
   position: absolute;
   top: calc(56px / 2 - (16px / 2));
   left: 16px;
-  transition: all 0.2s ease 0s;
+  transition: 0.2s ease 0s;
   width: 100%;
-  max-width: 312px;
+  max-width: 384px;
   display: flex;
   font-size: 16px;
   line-height: 16px;
@@ -453,6 +458,7 @@ ul {
   padding: 13px 0px 14px 64px;
   border: 1px solid #494949;
   border-radius: 8px;
+  margin-top: 16px;
   margin-bottom: 24px;
 }
 .form .helper-text.error {
@@ -687,7 +693,7 @@ ul {
   line-height: 16px;
   color: #000000;
   cursor: pointer;
-  transition: all 0.2s ease 0s;
+  transition: 0.2s ease 0s;
   outline: none;
 }
 .card .content footer .button span {
@@ -703,6 +709,41 @@ ul {
   margin: 0px 16px;
 }
 
+.login-box {
+  background-color: #004691;
+  width: 100%;
+  max-width: 384px;
+}
+.login-box .logo {
+  display: block;
+  width: 244px;
+  height: auto;
+  margin: 0px auto 32px;
+}
+.login-box .title {
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.login-box .title strong {
+  display: block;
+  color: #93c90f;
+}
+
+@media (max-width: 480px) {
+  .login-box {
+    max-width: 328px;
+  }
+  .login-box .logo {
+    width: 160px;
+  }
+  .login-box .title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
 .modal {
   position: fixed;
   top: 0;
@@ -711,7 +752,7 @@ ul {
   right: 0;
   opacity: 0;
   pointer-events: none;
-  transition: all 0.2s ease 0s;
+  transition: 0.2s ease 0s;
   background-color: rgba(0, 0, 0, 0.6);
 }
 .modal.active {
@@ -727,7 +768,7 @@ ul {
   margin-right: -100%;
   margin-left: auto;
   height: 100vh;
-  transition: margin-right all 0.2s ease 0s;
+  transition: margin-right 0.2s ease 0s;
   background-color: #ffffff;
   overflow-y: auto;
   /* Firefox */
@@ -790,7 +831,7 @@ ul {
 }
 .modal.primary .modal-resume .close:hover, .modal.primary .modal-resume .close:focus {
   opacity: 0.6;
-  transition: all 0.2s ease 0s;
+  transition: 0.2s ease 0s;
 }
 .modal.primary .modal-resume .title {
   font-size: 22px;
@@ -921,7 +962,7 @@ ul {
   text-align: center;
   padding: 0px;
   margin-right: 16px;
-  transition: all 0.2s ease 0s;
+  transition: 0.2s ease 0s;
   /* animation */
 }
 .modal.primary .modal-confirm .cpf-container .digits .input:last-child {
@@ -1067,7 +1108,7 @@ ul {
   margin-left: auto;
   height: 100vh;
   background-color: #ffffff;
-  transition: margin-right all 0.2s ease 0s;
+  transition: margin-right 0.2s ease 0s;
 }
 .modal.secondary.active .modal-content {
   margin-right: 0px;
@@ -1091,7 +1132,7 @@ ul {
 }
 .modal.secondary .modal-header .close:hover, .modal.secondary .modal-header .close:focus {
   opacity: 0.6;
-  transition: all 0.2s ease 0s;
+  transition: 0.2s ease 0s;
 }
 .modal.secondary .modal-header h2 {
   color: #ffffff;
@@ -1411,7 +1452,7 @@ ul {
 }
 .checkout.primary .checkout-resume .close:hover, .checkout.primary .checkout-resume .close:focus {
   opacity: 0.6;
-  transition: all 0.2s ease 0s;
+  transition: 0.2s ease 0s;
 }
 .checkout.primary .checkout-resume .infos .infos-row {
   display: flex;

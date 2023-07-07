@@ -35,6 +35,11 @@
   color: $primary-color-dark;
   background-color: $secondary-color-main;
 }
+@include sm {
+  .pm-button {
+    height: 48px;
+  }
+}
 
 .sc-button {
   color: #fff;
