@@ -28,7 +28,7 @@
         cursor: pointer;
         border: none;
         background-color: $transparent-color;
-        @include background-image(pathImages("close.svg"));
+        @include background-image(pathImages("close-circle-white.svg"));
 
         &:hover,
         &:focus {

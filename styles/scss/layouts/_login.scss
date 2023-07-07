@@ -1,0 +1,8 @@
+.login {
+  background-color: $primary-color-main;
+
+  .container {
+    @include flex-center-center;
+    height: calc(100vh - 48px);
+  }
+}
