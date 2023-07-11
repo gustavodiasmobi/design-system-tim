@@ -8,6 +8,4 @@ export default {
 };
 
 export const error404 = () => Error404 + Footer;
-export const error500 = () => {
-  return Error500 + Footer;
-};
+export const error500 = () => Error500 + Footer;

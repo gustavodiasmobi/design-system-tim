@@ -9,7 +9,7 @@
     min-height: calc(100vh - 48px);
 
     .content {
-      padding: 48px 0px;
+      padding: 40px 0px;
       @include max-width(530px);
 
       .logo {

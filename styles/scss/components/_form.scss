@@ -16,7 +16,7 @@
     position: relative;
     width: 100%;
     max-width: $width;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 
     &:last-of-type {
       margin-bottom: 0px;
@@ -331,6 +331,9 @@
 }
 @include sm {
   .form {
+    .row {
+      margin-bottom: 16px;
+    }
     .helper-text {
       font-size: 14px;
       border-radius: 8px;
