@@ -110,7 +110,7 @@ ul {
 }
 
 .container {
-  max-width: 73.125rem;
+  max-width: 63rem;
   margin: 0 auto;
 }
 
@@ -753,6 +753,7 @@ ul {
   pointer-events: none;
   transition: 0.2s ease 0s;
   background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
 }
 .modal.active {
   opacity: 1;
@@ -1341,6 +1342,7 @@ ul {
 
 .login {
   background-color: #004691;
+  background: linear-gradient(#004691, #042e5b);
 }
 .login .container {
   display: flex;
@@ -1429,7 +1431,7 @@ ul {
 }
 .offers {
   background-color: #003264;
-  background: linear-gradient(180deg, #004691 0%, #003264 100%);
+  background: linear-gradient(#004691, #042e5b);
 }
 .offers .container {
   height: 540px;
@@ -1638,6 +1640,127 @@ ul {
     margin-bottom: 24px;
   }
   .checkout.primary .checkout-resume header h2 {
+    font-size: 18.5px;
+    line-height: 24px;
+  }
+}
+.success {
+  background-color: #004691;
+  background: linear-gradient(#004691, #042e5b);
+  color: #ffffff;
+  text-align: center;
+}
+.success .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 48px);
+}
+.success .container .content {
+  padding: 48px 0px;
+  width: 100%;
+  max-width: 545px;
+}
+.success .container .content .logo {
+  display: block;
+  width: 206px;
+  height: auto;
+  margin: 0px auto 112px;
+}
+.success .container .content .title {
+  color: #93c90f;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.success .container .content .subtitle {
+  margin-bottom: 24px;
+}
+.success .container .content p {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media (max-width: 1366px) {
+  .success .container .content .logo {
+    margin-bottom: 64px;
+  }
+}
+@media (max-width: 768px) {
+  .success .container .content {
+    max-width: 328px;
+  }
+  .success .container .content .logo {
+    width: 160px;
+    margin-bottom: 40px;
+  }
+  .success .container .content .title {
+    font-size: 20.9px;
+    line-height: 25.08px;
+  }
+  .success .container .content .subtitle {
+    margin-bottom: 40px;
+  }
+  .success .container .content p {
+    font-size: 18.5px;
+    line-height: 24px;
+  }
+}
+.error-layout {
+  background-color: #004691;
+  background: linear-gradient(#004691, #042e5b);
+  color: #ffffff;
+  text-align: center;
+}
+.error-layout .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 48px);
+}
+.error-layout .container .content {
+  padding: 48px 0px;
+  width: 100%;
+  max-width: 530px;
+}
+.error-layout .container .content .logo {
+  display: block;
+  width: 206px;
+  height: auto;
+  margin: 0px auto 60px;
+}
+.error-layout .container .content .icon {
+  margin-bottom: 16px;
+}
+.error-layout .container .content .title {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.error-layout .container .content .subtitle {
+  margin-bottom: 40px;
+}
+.error-layout .container .content p {
+  font-size: 24px;
+  line-height: 32px;
+}
+.error-layout .container .content .gn-button {
+  width: 100%;
+  max-width: 374.63px;
+  margin: 0px auto;
+}
+
+@media (max-width: 768px) {
+  .error-layout .container .content {
+    max-width: 328px;
+  }
+  .error-layout .container .content .logo {
+    width: 160px;
+    margin-bottom: 40px;
+  }
+  .error-layout .container .content .title {
+    font-size: 20.9px;
+    line-height: 25.08px;
+  }
+  .error-layout .container .content p {
     font-size: 18.5px;
     line-height: 24px;
   }

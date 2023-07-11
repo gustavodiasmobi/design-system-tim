@@ -5,7 +5,7 @@
 }
 
 @mixin lg {
-  @media (min-width: 1366px) {
+  @media (max-width: 1366px) {
     @content;
   }
 }
@@ -126,4 +126,8 @@
 @mixin reset-button {
   border: none;
   background-color: transparent;
+}
+
+@mixin primary-gradient {
+  background: linear-gradient(#004691, #042e5b);
 }

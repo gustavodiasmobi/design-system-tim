@@ -1,5 +1,6 @@
 .login {
   background-color: $primary-color-main;
+  @include primary-gradient;
 
   .container {
     @include flex-center-center;

@@ -1,10 +1,6 @@
 .offers {
   background-color: $primary-color-dark;
-  background: linear-gradient(
-    180deg,
-    $primary-color-main 0%,
-    $primary-color-dark 100%
-  );
+  @include primary-gradient;
 
   .container {
     height: 540px;

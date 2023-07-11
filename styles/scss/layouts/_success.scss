@@ -1,0 +1,71 @@
+.success {
+  background-color: $primary-color-main;
+  @include primary-gradient;
+  color: $neutral-color-light;
+  text-align: center;
+
+  .container {
+    @include flex-center-center;
+    min-height: calc(100vh - 48px);
+
+    .content {
+      padding: 48px 0px;
+      @include max-width(545px);
+
+      .logo {
+        display: block;
+        width: 206px;
+        height: auto;
+        margin: 0px auto 112px;
+      }
+      .title {
+        color: $secondary-color-main;
+        font-size: 40px;
+        margin-bottom: 16px;
+      }
+      .subtitle {
+        margin-bottom: 24px;
+      }
+      p {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+}
+@include lg {
+  .success {
+    .container {
+      .content {
+        .logo {
+          margin-bottom: 64px;
+        }
+      }
+    }
+  }
+}
+@include md {
+  .success {
+    .container {
+      .content {
+        max-width: 328px;
+
+        .logo {
+          width: 160px;
+          margin-bottom: 40px;
+        }
+        .title {
+          font-size: 20.9px;
+          line-height: 25.08px;
+        }
+        .subtitle {
+          margin-bottom: 40px;
+        }
+        p {
+          font-size: 18.5px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
